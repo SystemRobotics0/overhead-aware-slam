@@ -1,0 +1,3 @@
+environment,world_file,total_model_includes,shell_includes,furniture_object_includes,chair_named_includes,table_named_includes,desk_like_includes,trained_class_named_includes,untrained_or_background_includes
+env1,src/sensor_fusion_desc/worlds/house2.world,30,1,29,8,4,2,12,17
+env2,src/sensor_fusion_desc/worlds/house3.world,28,1,27,8,3,1,11,16

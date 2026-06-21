@@ -1,0 +1,10 @@
+environment,method,n,success_pct,stuck_recovery_proxy_pct,costmap_failure_pct,avg_time_s,avg_path_dist_m
+combined,lidar_only,60,45.00,61.67,1.67,55.93,2.25
+combined,rtabmap,60,98.33,0.00,1.67,42.66,3.89
+combined,sensor_fusion,60,83.33,28.33,5.00,47.69,3.50
+env1,lidar_only,30,33.33,83.33,0.00,55.30,2.02
+env1,rtabmap,30,100.00,0.00,0.00,41.75,4.13
+env1,sensor_fusion,30,86.67,33.33,10.00,54.96,3.95
+env2,lidar_only,30,56.67,40.00,3.33,56.56,2.48
+env2,rtabmap,30,96.67,0.00,3.33,43.57,3.64
+env2,sensor_fusion,30,80.00,23.33,0.00,40.43,3.04

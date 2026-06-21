@@ -1,0 +1,10 @@
+field,value,source
+CPU,12th Gen Intel(R) Core(TM) i7-1280P (20 logical threads),/proc/cpuinfo
+GPU,00:02.0 VGA compatible controller: Intel Corporation Alder Lake-P GT2 [Iris Xe Graphics] (rev 0c),lspci
+RAM,31.0 GiB,/proc/meminfo
+OS,"Ubuntu 24.04.4 LTS, kernel 6.17.0-20-generic",/etc/os-release
+ROS version,jazzy,ROS_DISTRO
+Gazebo version,8.10.0,gz sim --versions
+SLAM Toolbox version,2.8.3-1noble.20260126.195907,dpkg-query
+RTAB-Map ROS version,0.22.1-1noble.20260412.073753,dpkg-query
+Detector device path,CPU: object_detction2.py uses tf.lite.Interpreter without GPU delegate,code inspection

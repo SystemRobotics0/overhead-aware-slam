@@ -1,0 +1,2 @@
+component,mean_ms,median_ms,p95_ms,max_ms,num_samples,approx_fps,notes
+tflite_detector_invoke_cpu_synthetic_input,19.587,18.340,24.331,61.135,100,51.05,"model=detect1.tflite; tf.lite.Interpreter CPU path; synthetic input shape=(1, 300, 300, 3)"

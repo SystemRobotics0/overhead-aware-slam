@@ -1,0 +1,34 @@
+build/
+install/
+log/
+/capstone
+/snapshots
+/images
+__pycache__/
+*.pyc
+
+.vscode/
+.idea/
+.DS_Store
+
+# Large/raw experiment artifacts. Keep compact summaries in results/.
+results/trajectories*/
+results/nav_env*.csv
+results/environment_inventory.csv
+results/navigation_summary.csv
+results/navigation_old_vs_reset.csv
+results/trajectory_clearance.csv
+results/trajectory_clearance_reset.csv
+results/trajectory_clearance_summary*.csv
+results/map_boundary_metrics.csv
+results/map_metrics.csv
+results/overhang_metrics.csv
+results/trajectory_overhang*.csv
+results/runtime_profile_live_raw.csv
+results/navigation_summary_rerun.csv
+results/nav_*rerun*.csv
+results/runtime_profile_summary.csv
+results_house*.csv
+
+# Local scratch notes.
+*.local.md
